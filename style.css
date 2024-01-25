@@ -99,6 +99,7 @@ position: absolute;
     display: inline-block;
     padding-right: 50px;
     float: right;
+    cursor: pointer;
 }
 .Navbar-Icon-1{
     height: 10px;
@@ -138,4 +139,25 @@ position: absolute;
     height: 18px;
     position: relative;
     top: 4px;
+}
+.Navbar a:hover{
+    color: crimson;
+    text-decoration: none;
+}
+.Navbar a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: crimson;
+    margin-top: 3px;
+    display: block;
+
+}
+.Navbar a:hover::after{
+    width: 100%;
+    transition: width 0.5s linear;
+}
+.Navbar a{
+    color: black;
+    text-decoration: none;
 }
