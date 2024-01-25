@@ -74,15 +74,68 @@ position: absolute;
     left: 50px;
     top: 76px;
     cursor: pointer;
+    height: 40px;
+    width: 40px;
+
 }
 .Shoping-Icon img{
     height: 35px;
 }
 .Text{
     position: absolute;
-    font-size: 40px;
-    color: darkgrey;
+    font-size: 37px;
+    color: #ccc9c9;
     left: 100px;
-    top: 69px;
+    top: 72px;
 }
-
+.Navbar{
+    width: 100%;
+    height:50px;
+}
+.Navbar{
+    display: inline-block;
+}
+.Navbar li{
+    display: inline-block;
+    padding-right: 50px;
+    float: right;
+}
+.Navbar-Icon-1{
+    height: 10px;
+    position: relative;
+}
+.Navbar-Icon-3{
+    height: 18px;
+    position: relative;
+    top: 4px;
+}
+.Navbar-Icon-2{
+    height: 18px;
+    position: relative;
+    top: 4px;
+}
+.Navbar-Icon-4{
+    height: 18px;
+    position: relative;
+    top: 4px;
+}
+.Navbar-Icon-5{
+    height: 18px;
+    position: relative;
+    top: 4px;
+}
+.Navbar-Icon-6{
+    height: 18px;
+    position: relative;
+    top: 4px;
+}
+.Location{
+    float: left;
+    position: relative;
+    left: 80px;
+}
+.Location-Lo{
+    height: 18px;
+    position: relative;
+    top: 4px;
+}
