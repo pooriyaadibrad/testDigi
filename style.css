@@ -160,6 +160,7 @@ position: absolute;
 .Navbar a{
     color: black;
     text-decoration: none;
+
 }
 .Box{
     box-shadow: 0 0 1px 1px #b6b9b7;
@@ -170,8 +171,9 @@ position: absolute;
 .Menu-Bar{
     height: 740px;
     width: 1000px;
-    background: white;
+    background: red;
     position: absolute;
     right: 38px;
     margin-top: 1px;
+    display: none;
 }
