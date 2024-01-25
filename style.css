@@ -47,3 +47,42 @@
     right: 180px;
     top: 80px;
 }
+.Login-SingUp{
+    position: absolute;
+    height: 40px;
+    width: 150px;
+    left: 130px;
+    border: solid #ccc9c9 1px;
+    border-radius: 6px;
+    top: 75px;
+    font-size: 15px;
+
+}
+.Login-SingUp img{
+    height:25px;
+    position: absolute;
+    right: 4px;
+    top: 6px;
+}
+.Login-SingUp a{
+    position: absolute;
+    left: 28px;
+    cursor: pointer;
+}
+.Shoping-Icon{
+position: absolute;
+    left: 50px;
+    top: 76px;
+    cursor: pointer;
+}
+.Shoping-Icon img{
+    height: 35px;
+}
+.Text{
+    position: absolute;
+    font-size: 40px;
+    color: darkgrey;
+    left: 100px;
+    top: 69px;
+}
+
