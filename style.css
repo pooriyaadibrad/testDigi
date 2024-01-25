@@ -24,3 +24,26 @@
     height: 70px;
     display: inline-block;
 }
+.Input-Search{
+    float: right;
+    position: relative;
+    right: 60px;
+    top: 16px;
+}
+.Input-Search input{
+    height: 35px;
+    width: 450px;
+    border-radius: 5px;
+    border: none;
+    background: #ccc9c9;
+    text-align: center;
+}
+.Icon-Search{
+
+}
+.Icon-Search img{
+    height: 25px;
+    position: absolute;
+    right: 180px;
+    top: 80px;
+}
